@@ -1,0 +1,124 @@
+{
+  "menu": [
+    {
+      "name": "Dashboards",
+      "url": "dashboard/analytics",
+      "icon": "home",
+      "slug": ""
+    },
+
+    {
+      "navheader": "Apps & Pages",
+      "slug": ""
+    },
+    {
+      "name": "Roles & Permission",
+      "icon": "shield",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "su/roles",
+          "name": "Roles",
+          "icon": "circle",
+          "slug": "su/roles"
+        },
+        {
+          "url": "su/permissions",
+          "name": "Permission",
+          "icon": "circle",
+          "slug": "su/permissions"
+        }
+      ]
+    },
+    {
+      "name": "Superuser",
+      "icon": "file-text",
+      "slug": "",
+      "submenu": [
+    
+        {
+          "url": "su/authentication-types",
+          "name": "Authentication Types",
+          "icon": "circle",
+          "slug": "su/authentication-types"
+        },
+        {
+          "url": "su/channels",
+          "name": "Channels",
+          "icon": "circle",
+          "slug": "su/channels"
+        },
+        {
+          "url": "su/supported-platforms",
+          "name": "Supported Platforms",
+          "icon": "circle",
+          "slug": "su/supported-platforms"
+        }
+      ]
+    },
+    {
+      "name": "Process Records",
+      "icon": "file-text",
+      "slug": "",
+      "submenu": [
+    
+        {
+          "url": "process-records",
+          "name": "Process Records",
+          "icon": "circle",
+          "slug": "process-records"
+        },
+        {
+          "url": "process-logs",
+          "name": "Process Logs",
+          "icon": "circle",
+          "slug": "process-logs"
+        }
+      ]
+    },
+    {
+      "name": "User",
+      "icon": "user",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "su/users",
+          "name": "List",
+          "icon": "circle",
+          "slug": "su/users"
+        },
+        {
+          "url": "su/users/create",
+          "name": "Add New",
+          "icon": "circle",
+          "slug": "su/users/create"
+        }
+      ]
+    },
+    {
+      "name": "Clients",
+      "icon": "user",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "clients",
+          "name": "Clients",
+          "icon": "circle",
+          "slug": "clients"
+        },
+        {
+          "url": "numbers",
+          "name": "Numbers",
+          "icon": "circle",
+          "slug": "numbers"
+        },
+        {
+          "url": "search",
+          "name": "Search",
+          "icon": "circle",
+          "slug": "search"
+        }
+      ]
+    }
+  ]
+}
